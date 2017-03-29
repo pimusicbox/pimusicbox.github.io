@@ -101,13 +101,13 @@
        <h2> Requirements </h2>
         <ul>
             <li>
-                Working Raspberry Pi (A, A+, B, B+)
+                Working Raspberry Pi (all models)
             </li>
             <li>
                 Speakers, amplifier or headphones (analog or USB)
             </li>
             <li>
-                SD-Card, 1GB minimum
+                SD-Card, 4GB minimum
             </li>
             <li>
                 Computer with a modern browser; tablet or phone. The webinterface is tested with
@@ -133,7 +133,7 @@
        </div>
        <div class="fadedline"></div>
         <h2>Download</h2>
-        <p>Here you can find an image for the SD Card for you Pi. It's around 360MB in (compressed) size; 2.2GB uncompressed (<a href="https://github.com/pimusicbox/pimusicbox/blob/master/docs/changes.rst">changes</a>):<br/><br/>
+        <p>Here you can find an image for the SD Card for you Pi. It's around 360MB compressed (2.2GB uncompressed) in size (<a href="https://github.com/pimusicbox/pimusicbox/blob/master/docs/changes.rst">changes</a>):<br/><br/>
             <ul>
                 <li><a href="https://github.com/pimusicbox/pimusicbox/releases/tag/v0.7.0RC4">Pi MusicBox 0.7.0RC4 (Release Candidate 4)</a></li>
                 <li><a href="https://dl.mopidy.com/pimusicbox/">Older releases</a> via <a href="http://www.rackspace.com">RackSpace</a></li>
@@ -171,9 +171,10 @@
 <br/>
         <h2>Instructions</h2>
 <p>
-    Extract the zip-file. Put the resulting image on your sd-card by following <a href="http://elinux.org/RPi_Easy_SD_Card_Setup#Flashing_the_SD_Card_using_Windows">these
-                instructions</a>. The image is for a 1GB card, but you can put it on a
-                larger one, for more space if you want to put audio files on the card. A manual is included in the Zip.
+    Extract the zip-file. Put the resulting image on your sd-card by using the wonderfully simple <a href="https://etcher.io/">Etcher SD card image utility</a>
+    or by following <a href="http://elinux.org/RPi_Easy_SD_Card_Setup#Flashing_the_SD_Card_using_Windows">these
+                instructions</a>. The image is for a 4GB card, but you can put it on a
+                larger one, for more space if you want to put audio files on the card too. A manual is included in the Zip.
 </p>
 
 <br/>
@@ -259,7 +260,8 @@
                 </code> (fill in your own!).
                 There is no way to change that for now, unless Android would support it,
                 The IP-address is printed on the screen when
-                MusicBox is started. Connect a monitor/tv to find out. Or use a network/bonjour scanning utility.
+                MusicBox is started. Connect a monitor/tv to find out. 
+                Or use a network/bonjour scanning utility such as <a href="https://play.google.com/store/apps/details?id=discovery.ack.me.ackme_discovery&hl=en_GB">Zentri Discovery</a>.
             </li>
         </ol>
         <div class="fadedline"></div>
@@ -267,7 +269,7 @@
 
      <p>Please refer to the <a href="faq.html">Frequently Asked Questions</a> and the <a href="MusicBox_Manual.pdf">Manual</a> before asking questions. </p>
         <br />
-    You can discuss features and problems on the <a href="http://discuss.mopidy.com">forum</a>. Please report bugs about MusicBox itself at <a href="https://github.com/pimusicbox/pimusicbox/issues">the repo at Github</a>. You can also try the
+    You can discuss features and problems on the <a href="https://discuss.mopidy.com/c/pi-musicbox">forum</a>. Please report bugs about MusicBox itself at <a href="https://github.com/pimusicbox/pimusicbox/issues">the repo at Github</a>. You can also try the
             <code>
                 #mopidy
             </code>
@@ -315,7 +317,11 @@
                 <a href="http://www.mopidy.com/">Mopidy</a> (+ my own <a href="https://github.com/pimusicbox/mopidy-musicbox-webclient">Mopidy-MusicBox-Webclient</a>)
             </li>
             <li>
-                <a href="https://github.com/albertz/shairport">Shairport</a>
+                <a href="https://github.com/mikebrady/shairport-sync">Shairport Sync</a>
+                <br />
+            </li>
+            <li>
+                <a href="https://www.lesbonscomptes.com/upmpdcli/">upmpdcli (UPnP Audio Media Renderer)</a>
                 <br />
             </li>
             <li>
