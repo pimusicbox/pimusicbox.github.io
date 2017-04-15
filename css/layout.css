@@ -26,10 +26,9 @@ h1, h2 {
 }
 
 .wrapper {
-    width: 800px;
+    max-width: 800px;
     padding: 50px 20px;
     margin:  0 auto;
-    box-shadow:
     background-color: #fff;
 }
 .footer {
