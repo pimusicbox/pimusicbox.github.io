@@ -54,17 +54,17 @@ img.logo {
 }
 .social {
     float: right;
-    width: 128px;
+    width: 206px;
     height: 128px;
     margin-top: -65px;
     margin-right: -50px;
 }
 .social img {
-    border: 3px solid #1C1C1C;
+    border: 2px solid white;
     -webkit-border-radius: 99px;
     -moz-border-radius: 99px;
     border-radius: 99px;
-    background-color: black;
+    background-color: white;
 }
 ul {
     width: 100%;
