@@ -1,0 +1,10 @@
+{
+  "vars": {
+    "@grid-columns": "12"
+  },
+  "css": [
+    "grid.less"
+  ],
+  "js": [],
+  "customizerUrl": "http://getbootstrap.com/customize/?id=30705b6bb88420de84a79e98c04acd2c"
+}
