@@ -1,6 +1,15 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
-
+/* later edits */
+body {
+	overflow-x: none;
+}
+.menu {
+float: right;
+    width: 400px;
+ /*   border: 3px solid #73AD21; */
+margin-left:auto;
+}
 
 /* Reset */
 
